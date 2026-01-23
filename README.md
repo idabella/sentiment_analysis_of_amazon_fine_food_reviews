@@ -113,17 +113,6 @@ jupyter notebook sentiment_analysis_amazon_reviews.ipynb
 - More computationally intensive
 
 **Key Finding:** Transformer-based models outperform lexicon-based approaches in most real-world cases.
-
----
-
-## 🚀 Future Improvements
-
-- Fine-tune RoBERTa on the Amazon dataset for improved accuracy
-- Add quantitative evaluation metrics (accuracy, F1-score, precision, recall)
-- Perform error analysis with confusion matrices
-- Deploy the model using Streamlit or Flask for interactive demos
-- Experiment with other transformer models (BERT, DistilBERT, XLNet)
-
 ---
 
 ## 📁 Project Structure
