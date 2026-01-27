@@ -19,43 +19,6 @@ The objective is to compare traditional sentiment analysis techniques with moder
 
 ---
 
-## 📂 Dataset
-
-- **Name:** Amazon Fine Food Reviews
-- **Source:** Public Amazon reviews dataset
-- **Description:** The dataset contains customer reviews, ratings (1–5 stars), review text, and metadata
-- **Task:** Predict the sentiment of each review (positive, neutral, or negative) based on the review text
-
----
-
-## 🛠️ Project Workflow
-
-### 1️⃣ Exploratory Data Analysis (EDA)
-- Analysis of review score distribution
-- Identification of class imbalance
-- Basic text statistics (length, frequency)
-- Visualization using **Matplotlib** and **Seaborn**
-
-### 2️⃣ VADER Sentiment Analysis
-- Uses **NLTK's VADER** (Valence Aware Dictionary and sEntiment Reasoner)
-- Designed for social media and short texts
-- Generates sentiment scores: `positive`, `neutral`, `negative`, and `compound` (overall sentiment)
-
-### 3️⃣ Transformer-Based Sentiment Analysis (RoBERTa)
-- Uses a **pretrained RoBERTa model** from Hugging Face
-- Captures context, negation, and complex language patterns
-- Steps:
-  - Tokenization using `AutoTokenizer`
-  - Inference using `AutoModelForSequenceClassification`
-  - Softmax applied to model outputs to obtain sentiment probabilities
-
-### 4️⃣ Model Comparison
-- Comparison between **VADER compound scores** and **RoBERTa predictions**
-- Identification of cases where VADER fails due to sarcasm or context
-- Qualitative analysis using example reviews
-
----
-
 ## 🧰 Technologies & Libraries
 
 - **Programming Language:** Python
@@ -64,28 +27,6 @@ The objective is to compare traditional sentiment analysis techniques with moder
 - **Deep Learning:** PyTorch
 - **Visualization:** Matplotlib, Seaborn
 - **Math & Utilities:** SciPy
-
----
-
-## ⚙️ Installation & Setup
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/sentiment-analysis-amazon-reviews.git
-cd sentiment-analysis-amazon-reviews
-```
-
-### 2. Install Dependencies
-```bash
-pip install pandas numpy matplotlib seaborn nltk transformers torch scipy
-```
-
-### 3. Download NLTK Resources
-```python
-import nltk
-nltk.download('vader_lexicon')
-nltk.download('punkt')
-```
 
 ---
 
