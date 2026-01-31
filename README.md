@@ -1,4 +1,5 @@
 # Sentiment Analysis of Amazon Fine Food Reviews
+<br>
 <div align="center">
   <img 
     src="./data/shema.png" 
