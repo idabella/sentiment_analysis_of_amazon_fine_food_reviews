@@ -1,12 +1,6 @@
 # Sentiment Analysis of Amazon Fine Food Reviews
 <br>
-<div align="center">
-  <img 
-    src="./data/shema.png" 
-    alt="Dashboard Overview" 
-    width="700"
-  />
-</div>
+
 
 
 ## 📌 Project Overview
