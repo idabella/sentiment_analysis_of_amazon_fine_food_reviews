@@ -1,7 +1,4 @@
 # Sentiment Analysis of Amazon Fine Food Reviews
-<br>
-
-
 
 ## 📌 Project Overview
 
